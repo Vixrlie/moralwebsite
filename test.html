@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Four Images Website</title>
+    <link rel="stylesheet" href="design.css">
+</head>
+<body>
+    <header class="header">
+        <div class="subheader tit">
+            <h1 class="title">Donation Campaign</h1>
+            <p class="subtitle">Panti Asuhan Bina Harapan Bogor</p>
+        </div>
+        <div class="subheader icon">
+            <nav>
+                <ul>
+                    <li><a href="https://www.instagram.com/donateduck.id/" target="_blank">Instagram</a></li>
+                    <!-- <li><a>About</a></li> -->
+                    <li><a href="https://wa.me/+6282230609796" target="_blank">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="containerhead">
+        <div class="container">
+            <div class="image-wrapper">
+                <img class="image" src="{% static 'images/binaharapan1.jpg' %}" alt="Upright Image">
+                <div class="overlay">
+                    <h3 class="caption">Kunjungan JOIWAY (07/02/23)</h3>
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <img class="image" src="images/binaharapan2.jpg" alt="Upleft Image">
+                <div class="overlay">
+                    <h3 class="caption">Gambar Halaman Depan</h3>
+                </div>
+            </div>
+            <!-- Add more image wrappers for additional images -->
+        </div>
+        <div class="container">
+            <div class="image-wrapper">
+                <img class="image" src="images/binaharapan5.jpeg" alt="Upright Image">
+                <div class="overlay">
+                    <h3 class="caption">Gambar Halaman Samping</h3>
+                </div>
+            </div>
+            <div class="image-wrapper">
+                <img class="image" src="images/binaharapan3.png" alt="Upleft Image">
+                <div class="overlay">
+                    <h3 class="caption">Kunjungan FORWAN (21/06/23)</h3>
+                </div>
+            </div>
+            <!-- Add more image wrappers for additional images -->
+        </div>
+    </div>
+
+    <div class="logo-wrapper">
+        <div class="dropdown-content">
+            <a id="loc" href="https://maps.app.goo.gl/yRBvc34bHZZD5RNY6" target="_blank">
+                <img id="locIcon" src="images/locIcon.png">
+            </a>
+            <a id="info" href="https://www.instagram.com/donateduck.id/" target="_blank">
+                <img id="infoIcon" src="images/infoIcon.png">
+            </a>
+            <a href="#">Option 3</a>
+        </div>
+        <a href="#" target="_blank">
+            <img class="logo" src="images/donateduck.png">
+        </a>
+    </div>
+
+    <div class="chatBub">
+        <img src="images/chatbul.png">
+        <p class="bubChat">Hover me!</p>
+    </div>
+
+    <div class="shadow"></div>
+
+    <div class="parcon">
+        <p class="paragraph p1">
+            Manusia memiliki hak dan martabat yang setara. Kita semua dilahirkan sama kedudukannya dengan orang-orang lain. Perbedaan-perbedaan yang ada bukanlah menjadi suatu dinding yang memisahkan antara satu orang dengan yang lainnya. Namun, ada kalanya orang-orang terlahir atau mengalami kehidupan yang tidak seberuntung orang-orang lainnya. Di masa modern ini, masih saja sulit bagi mereka untuk diterima secara utuh apa adanya oleh masyarakat luas. Hal ini menyebabkan adanya kesenjangan di antara mereka dengan masyarakat kebanyakan.
+        </p>
+        <img class="parImg" id="equal" src="images/equality.png">
+    </div>
+
+    <div class="parcon">
+        <img class="parImg" id="comser" src="images/comser.png">
+        <p class="paragraph p2">
+            Hal ini menimbulkan rasa kemanusiaan pada diri kami untuk membantu meringankan beban mereka yang mengalami pengalaman tersebut, contohnya: anak yatim piatu, orang tua yang dititipkan di panti jompo, orang-orang berpenyakit jiwa, dan banyak lainnya. Acara Community Service yang diselenggarakan oleh sekolah dan diwajibkan kepada seluruh murid SMAS Pahoa, telah memberikan kesempatan bagi kami untuk membantu mereka yang mengalami kesulitan tersebut. 
+        </p>
+    </div>
+    <div class="parcon last">
+        <p class="paragraph p3">
+            Melalui Community Service, kami akan memberikan bantuan untuk meringankan beban ekonomi mereka. Kami juga akan menyumbangkan pelayanan berupa jasa dan pekerjaan-pekerjaan yang mampu meringankan beban mereka serta turut membahagiakan hari-hari mereka selama kami di lokasi.
+        </p>
+
+
+    </div>
+
+
+    <div id="button-container">
+        <a href="https://forms.gle/cvbpwAgK2KabccA26" target="_blank">
+            <button href="https://forms.gle/cvbpwAgK2KabccA26">Donate Now!</button>
+        </a>
+    </div>
+
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <p id="firstf">A Website by: </p>
+        <hr class="line">
+        <p>Cai</p>
+        <p>Ellen</p>
+        <p>Faith Kyla Samantha Houten</p>
+        <p>Vincent Rionarlie</p>
+        <p>Winston Lin</p>
+        <br>
+        <p id="lastf">of 12IPA2</p>
+    </footer>
+</body>
+</html>
